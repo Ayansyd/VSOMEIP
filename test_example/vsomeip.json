@@ -1,0 +1,21 @@
+{
+    "unicast": "127.0.0.1",
+    "logging": {
+        "level": "info",
+        "console": true
+    },
+    "applications": [
+        {
+            "name": "World",
+            "id": "0x1234"
+        }
+    ],
+    "services": [
+        {
+            "service": "0x2345",
+            "instance": "0x5678",
+            "reliable": "192.168.0.1:30490",
+            "unreliable": "192.168.0.1:30491"
+        }
+    ]
+}
